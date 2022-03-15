@@ -1,0 +1,99 @@
+* {
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+    background-color: rgb(0, 202, 202);
+    border: 5px solid rgb(0, 158, 158);
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(0, 61, 61);
+    text-align: left;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: auto;
+    padding: 10px 0px;
+    margin-top: 4px;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(30, 255, 0);
+    border: 5px solid rgb(18, 156, 0);
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(11, 90, 0);
+    margin-right: 10pxrgb(15, 128, 0)
+}
+
+.item_container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(30, 255, 0);
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+.item {
+    background-color: rgb(16, 134, 0);
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.item{
+    background: rgb(14, 122, 0);
+    border-bottom: 5px solid rgb(8, 65, 0);
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(7, 56, 0);
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 120px;
+  }
+  .item:hover{
+      background: rgb(10, 82, 0);
+  }
+  .item:active {
+        box-shadow: 2px 2px 2px #00b7f8, 0px 0px 35px 0px #00b7f8;
+        border-bottom:5px solid rgb(7, 59, 0);
+        text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+        transform: translateY(4px);
+        transition: all 0.1s ease 0s;
+  }
+
+.sidebar {
+    background-color: rgb(255, 30, 0);
+    border: 5px solid rgb(194, 23, 0);
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(109, 13, 0);
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 4px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 132, 255);
+    border: 5px solid rgb(0, 96, 185);
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(0, 55, 107);
+}
